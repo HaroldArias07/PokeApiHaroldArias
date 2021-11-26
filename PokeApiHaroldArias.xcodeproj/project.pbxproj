@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119017DD7C95032D66288DAA /* Pods_PokeApiHaroldArias.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F735F8F756B37FE571EC1679 /* Pods_PokeApiHaroldArias.framework */; };
+		5C044EE031AB65BC08DECD66 /* Pods_PokeApiHaroldAriasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A1424100BD831979B4AD1E /* Pods_PokeApiHaroldAriasTests.framework */; };
+		7FF413F4D6D6418868E21C40 /* Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880E8FF48E1065528A5EAD22 /* Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests.framework */; };
+		D80A3009274EA3BF009EDB09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A3008274EA3BF009EDB09 /* AppDelegate.swift */; };
+		D80A300B274EA3BF009EDB09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A300A274EA3BF009EDB09 /* SceneDelegate.swift */; };
+		D80A300D274EA3BF009EDB09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A300C274EA3BF009EDB09 /* ViewController.swift */; };
+		D80A3010274EA3BF009EDB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80A300E274EA3BF009EDB09 /* Main.storyboard */; };
+		D80A3012274EA3C2009EDB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80A3011274EA3C2009EDB09 /* Assets.xcassets */; };
+		D80A3015274EA3C2009EDB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80A3013274EA3C2009EDB09 /* LaunchScreen.storyboard */; };
+		D80A3020274EA3C3009EDB09 /* PokeApiHaroldAriasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A301F274EA3C3009EDB09 /* PokeApiHaroldAriasTests.swift */; };
+		D80A302A274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A3029274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.swift */; };
+		D80A302C274EA3C3009EDB09 /* PokeApiHaroldAriasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A302B274EA3C3009EDB09 /* PokeApiHaroldAriasUITestsLaunchTests.swift */; };
+		D8147CE0274EC0B3001E43F9 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8147CDF274EC0B3001E43F9 /* SingInViewController.swift */; };
+		D8147CE2274EC0CB001E43F9 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8147CE1274EC0CB001E43F9 /* SingUpViewController.swift */; };
+		D84F46E7274EEA35002ACC8F /* PokeApiAndPerfil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84F46E6274EEA35002ACC8F /* PokeApiAndPerfil.storyboard */; };
+		D84F46E9274EF209002ACC8F /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F46E8274EF209002ACC8F /* PerfilViewController.swift */; };
+		D84F46EC274F5154002ACC8F /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F46EB274F5154002ACC8F /* Users.swift */; };
+		D84F46EE274F527A002ACC8F /* ListPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F46ED274F527A002ACC8F /* ListPokemon.swift */; };
+		D84F46F5274F5552002ACC8F /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F46F4274F5552002ACC8F /* PokemonListViewController.swift */; };
+		D84F46FA274F8CA7002ACC8F /* PokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F46F9274F8CA7002ACC8F /* PokeViewModel.swift */; };
+		D84F46FC274FBB77002ACC8F /* DetailsPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F46FB274FBB77002ACC8F /* DetailsPokemonViewController.swift */; };
+		D8A842ED27517A0400414BF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A842EC27517A0400414BF1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80A301C274EA3C3009EDB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80A2FFD274EA3BE009EDB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80A3004274EA3BE009EDB09;
+			remoteInfo = PokeApiHaroldArias;
+		};
+		D80A3026274EA3C3009EDB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80A2FFD274EA3BE009EDB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80A3004274EA3BE009EDB09;
+			remoteInfo = PokeApiHaroldArias;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1126FE52B7EB046BD2AFF525 /* Pods-PokeApiHaroldAriasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApiHaroldAriasTests.release.xcconfig"; path = "Target Support Files/Pods-PokeApiHaroldAriasTests/Pods-PokeApiHaroldAriasTests.release.xcconfig"; sourceTree = "<group>"; };
+		55609A9C940A3B89984E67B6 /* Pods-PokeApiHaroldArias.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApiHaroldArias.release.xcconfig"; path = "Target Support Files/Pods-PokeApiHaroldArias/Pods-PokeApiHaroldArias.release.xcconfig"; sourceTree = "<group>"; };
+		79A1424100BD831979B4AD1E /* Pods_PokeApiHaroldAriasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeApiHaroldAriasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		880E8FF48E1065528A5EAD22 /* Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1423C7C4EB65CBD893D5B6B /* Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.release.xcconfig"; path = "Target Support Files/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2C052DE67835F86598D173F /* Pods-PokeApiHaroldAriasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApiHaroldAriasTests.debug.xcconfig"; path = "Target Support Files/Pods-PokeApiHaroldAriasTests/Pods-PokeApiHaroldAriasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D80A3005274EA3BF009EDB09 /* PokeApiHaroldArias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeApiHaroldArias.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80A3008274EA3BF009EDB09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80A300A274EA3BF009EDB09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D80A300C274EA3BF009EDB09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80A300F274EA3BF009EDB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80A3011274EA3C2009EDB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80A3014274EA3C2009EDB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80A3016274EA3C2009EDB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80A301B274EA3C3009EDB09 /* PokeApiHaroldAriasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeApiHaroldAriasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80A301F274EA3C3009EDB09 /* PokeApiHaroldAriasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApiHaroldAriasTests.swift; sourceTree = "<group>"; };
+		D80A3025274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeApiHaroldAriasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80A3029274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApiHaroldAriasUITests.swift; sourceTree = "<group>"; };
+		D80A302B274EA3C3009EDB09 /* PokeApiHaroldAriasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApiHaroldAriasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8147CDF274EC0B3001E43F9 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
+		D8147CE1274EC0CB001E43F9 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		D84F46E5274EE9CC002ACC8F /* PokeApiHaroldAriasRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokeApiHaroldAriasRelease.entitlements; sourceTree = "<group>"; };
+		D84F46E6274EEA35002ACC8F /* PokeApiAndPerfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PokeApiAndPerfil.storyboard; sourceTree = "<group>"; };
+		D84F46E8274EF209002ACC8F /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		D84F46EB274F5154002ACC8F /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		D84F46ED274F527A002ACC8F /* ListPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemon.swift; sourceTree = "<group>"; };
+		D84F46F4274F5552002ACC8F /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
+		D84F46F9274F8CA7002ACC8F /* PokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeViewModel.swift; sourceTree = "<group>"; };
+		D84F46FB274FBB77002ACC8F /* DetailsPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPokemonViewController.swift; sourceTree = "<group>"; };
+		D8A842EC27517A0400414BF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB9581E6FDB2909BBBA850F4 /* Pods-PokeApiHaroldArias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApiHaroldArias.debug.xcconfig"; path = "Target Support Files/Pods-PokeApiHaroldArias/Pods-PokeApiHaroldArias.debug.xcconfig"; sourceTree = "<group>"; };
+		DD20420965F5986984B14ECE /* Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.debug.xcconfig"; path = "Target Support Files/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F735F8F756B37FE571EC1679 /* Pods_PokeApiHaroldArias.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeApiHaroldArias.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80A3002274EA3BE009EDB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119017DD7C95032D66288DAA /* Pods_PokeApiHaroldArias.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A3018274EA3C3009EDB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C044EE031AB65BC08DECD66 /* Pods_PokeApiHaroldAriasTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A3022274EA3C3009EDB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF413F4D6D6418868E21C40 /* Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6D365FB4B59E5511794BB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB9581E6FDB2909BBBA850F4 /* Pods-PokeApiHaroldArias.debug.xcconfig */,
+				55609A9C940A3B89984E67B6 /* Pods-PokeApiHaroldArias.release.xcconfig */,
+				DD20420965F5986984B14ECE /* Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.debug.xcconfig */,
+				A1423C7C4EB65CBD893D5B6B /* Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.release.xcconfig */,
+				C2C052DE67835F86598D173F /* Pods-PokeApiHaroldAriasTests.debug.xcconfig */,
+				1126FE52B7EB046BD2AFF525 /* Pods-PokeApiHaroldAriasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D80A2FFC274EA3BE009EDB09 = {
+			isa = PBXGroup;
+			children = (
+				D80A3007274EA3BF009EDB09 /* PokeApiHaroldArias */,
+				D80A301E274EA3C3009EDB09 /* PokeApiHaroldAriasTests */,
+				D80A3028274EA3C3009EDB09 /* PokeApiHaroldAriasUITests */,
+				D80A3006274EA3BF009EDB09 /* Products */,
+				7E6D365FB4B59E5511794BB5 /* Pods */,
+				FDDF0FD974FE64048519989F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D80A3006274EA3BF009EDB09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80A3005274EA3BF009EDB09 /* PokeApiHaroldArias.app */,
+				D80A301B274EA3C3009EDB09 /* PokeApiHaroldAriasTests.xctest */,
+				D80A3025274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80A3007274EA3BF009EDB09 /* PokeApiHaroldArias */ = {
+			isa = PBXGroup;
+			children = (
+				D84F46F8274F8C4C002ACC8F /* ViewModel */,
+				D84F46EA274F5066002ACC8F /* Model */,
+				D84F46E5274EE9CC002ACC8F /* PokeApiHaroldAriasRelease.entitlements */,
+				D83EF429274EB101001CB537 /* Images */,
+				D83EF426274EB00F001CB537 /* Application */,
+				D83EF425274EB001001CB537 /* Views */,
+				D83EF424274EAFDB001CB537 /* Screens */,
+				D8A842EC27517A0400414BF1 /* GoogleService-Info.plist */,
+				D80A3011274EA3C2009EDB09 /* Assets.xcassets */,
+				D80A3016274EA3C2009EDB09 /* Info.plist */,
+			);
+			path = PokeApiHaroldArias;
+			sourceTree = "<group>";
+		};
+		D80A301E274EA3C3009EDB09 /* PokeApiHaroldAriasTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80A301F274EA3C3009EDB09 /* PokeApiHaroldAriasTests.swift */,
+			);
+			path = PokeApiHaroldAriasTests;
+			sourceTree = "<group>";
+		};
+		D80A3028274EA3C3009EDB09 /* PokeApiHaroldAriasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80A3029274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.swift */,
+				D80A302B274EA3C3009EDB09 /* PokeApiHaroldAriasUITestsLaunchTests.swift */,
+			);
+			path = PokeApiHaroldAriasUITests;
+			sourceTree = "<group>";
+		};
+		D83EF424274EAFDB001CB537 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D80A3013274EA3C2009EDB09 /* LaunchScreen.storyboard */,
+				D80A300E274EA3BF009EDB09 /* Main.storyboard */,
+				D84F46E6274EEA35002ACC8F /* PokeApiAndPerfil.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D83EF425274EB001001CB537 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D80A300C274EA3BF009EDB09 /* ViewController.swift */,
+				D8147CDF274EC0B3001E43F9 /* SingInViewController.swift */,
+				D8147CE1274EC0CB001E43F9 /* SingUpViewController.swift */,
+				D84F46E8274EF209002ACC8F /* PerfilViewController.swift */,
+				D84F46F4274F5552002ACC8F /* PokemonListViewController.swift */,
+				D84F46FB274FBB77002ACC8F /* DetailsPokemonViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D83EF426274EB00F001CB537 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D80A3008274EA3BF009EDB09 /* AppDelegate.swift */,
+				D80A300A274EA3BF009EDB09 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D83EF429274EB101001CB537 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D84F46EA274F5066002ACC8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84F46EB274F5154002ACC8F /* Users.swift */,
+				D84F46ED274F527A002ACC8F /* ListPokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D84F46F8274F8C4C002ACC8F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D84F46F9274F8CA7002ACC8F /* PokeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDDF0FD974FE64048519989F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F735F8F756B37FE571EC1679 /* Pods_PokeApiHaroldArias.framework */,
+				880E8FF48E1065528A5EAD22 /* Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests.framework */,
+				79A1424100BD831979B4AD1E /* Pods_PokeApiHaroldAriasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80A3004274EA3BE009EDB09 /* PokeApiHaroldArias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80A302F274EA3C3009EDB09 /* Build configuration list for PBXNativeTarget "PokeApiHaroldArias" */;
+			buildPhases = (
+				2B6B2F004C3BE83BBE40B519 /* [CP] Check Pods Manifest.lock */,
+				D80A3001274EA3BE009EDB09 /* Sources */,
+				D80A3002274EA3BE009EDB09 /* Frameworks */,
+				D80A3003274EA3BE009EDB09 /* Resources */,
+				26CBB037F1749491F34D7CC6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeApiHaroldArias;
+			productName = PokeApiHaroldArias;
+			productReference = D80A3005274EA3BF009EDB09 /* PokeApiHaroldArias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80A301A274EA3C3009EDB09 /* PokeApiHaroldAriasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80A3032274EA3C3009EDB09 /* Build configuration list for PBXNativeTarget "PokeApiHaroldAriasTests" */;
+			buildPhases = (
+				D2E221E3BB43714FB8A371C2 /* [CP] Check Pods Manifest.lock */,
+				D80A3017274EA3C3009EDB09 /* Sources */,
+				D80A3018274EA3C3009EDB09 /* Frameworks */,
+				D80A3019274EA3C3009EDB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80A301D274EA3C3009EDB09 /* PBXTargetDependency */,
+			);
+			name = PokeApiHaroldAriasTests;
+			productName = PokeApiHaroldAriasTests;
+			productReference = D80A301B274EA3C3009EDB09 /* PokeApiHaroldAriasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80A3024274EA3C3009EDB09 /* PokeApiHaroldAriasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80A3035274EA3C3009EDB09 /* Build configuration list for PBXNativeTarget "PokeApiHaroldAriasUITests" */;
+			buildPhases = (
+				AB05BCC24AD54E165150BC5B /* [CP] Check Pods Manifest.lock */,
+				D80A3021274EA3C3009EDB09 /* Sources */,
+				D80A3022274EA3C3009EDB09 /* Frameworks */,
+				D80A3023274EA3C3009EDB09 /* Resources */,
+				614ADEB3E88194653A283AA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80A3027274EA3C3009EDB09 /* PBXTargetDependency */,
+			);
+			name = PokeApiHaroldAriasUITests;
+			productName = PokeApiHaroldAriasUITests;
+			productReference = D80A3025274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80A2FFD274EA3BE009EDB09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D80A3004274EA3BE009EDB09 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D80A301A274EA3C3009EDB09 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D80A3004274EA3BE009EDB09;
+					};
+					D80A3024274EA3C3009EDB09 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D80A3004274EA3BE009EDB09;
+					};
+				};
+			};
+			buildConfigurationList = D80A3000274EA3BE009EDB09 /* Build configuration list for PBXProject "PokeApiHaroldArias" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80A2FFC274EA3BE009EDB09;
+			productRefGroup = D80A3006274EA3BF009EDB09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80A3004274EA3BE009EDB09 /* PokeApiHaroldArias */,
+				D80A301A274EA3C3009EDB09 /* PokeApiHaroldAriasTests */,
+				D80A3024274EA3C3009EDB09 /* PokeApiHaroldAriasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80A3003274EA3BE009EDB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84F46E7274EEA35002ACC8F /* PokeApiAndPerfil.storyboard in Resources */,
+				D80A3015274EA3C2009EDB09 /* LaunchScreen.storyboard in Resources */,
+				D80A3012274EA3C2009EDB09 /* Assets.xcassets in Resources */,
+				D80A3010274EA3BF009EDB09 /* Main.storyboard in Resources */,
+				D8A842ED27517A0400414BF1 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A3019274EA3C3009EDB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A3023274EA3C3009EDB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26CBB037F1749491F34D7CC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokeApiHaroldArias/Pods-PokeApiHaroldArias-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokeApiHaroldArias/Pods-PokeApiHaroldArias-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokeApiHaroldArias/Pods-PokeApiHaroldArias-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B6B2F004C3BE83BBE40B519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokeApiHaroldArias-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614ADEB3E88194653A283AA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB05BCC24AD54E165150BC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E221E3BB43714FB8A371C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokeApiHaroldAriasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80A3001274EA3BE009EDB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84F46E9274EF209002ACC8F /* PerfilViewController.swift in Sources */,
+				D84F46EE274F527A002ACC8F /* ListPokemon.swift in Sources */,
+				D8147CE0274EC0B3001E43F9 /* SingInViewController.swift in Sources */,
+				D80A300D274EA3BF009EDB09 /* ViewController.swift in Sources */,
+				D8147CE2274EC0CB001E43F9 /* SingUpViewController.swift in Sources */,
+				D80A3009274EA3BF009EDB09 /* AppDelegate.swift in Sources */,
+				D80A300B274EA3BF009EDB09 /* SceneDelegate.swift in Sources */,
+				D84F46FC274FBB77002ACC8F /* DetailsPokemonViewController.swift in Sources */,
+				D84F46EC274F5154002ACC8F /* Users.swift in Sources */,
+				D84F46F5274F5552002ACC8F /* PokemonListViewController.swift in Sources */,
+				D84F46FA274F8CA7002ACC8F /* PokeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A3017274EA3C3009EDB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80A3020274EA3C3009EDB09 /* PokeApiHaroldAriasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A3021274EA3C3009EDB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80A302A274EA3C3009EDB09 /* PokeApiHaroldAriasUITests.swift in Sources */,
+				D80A302C274EA3C3009EDB09 /* PokeApiHaroldAriasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80A301D274EA3C3009EDB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80A3004274EA3BE009EDB09 /* PokeApiHaroldArias */;
+			targetProxy = D80A301C274EA3C3009EDB09 /* PBXContainerItemProxy */;
+		};
+		D80A3027274EA3C3009EDB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80A3004274EA3BE009EDB09 /* PokeApiHaroldArias */;
+			targetProxy = D80A3026274EA3C3009EDB09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80A300E274EA3BF009EDB09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80A300F274EA3BF009EDB09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80A3013274EA3C2009EDB09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80A3014274EA3C2009EDB09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80A302D274EA3C3009EDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80A302E274EA3C3009EDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80A3030274EA3C3009EDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9581E6FDB2909BBBA850F4 /* Pods-PokeApiHaroldArias.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokeApiHaroldArias/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.edu.pe.PokeApiHaroldArias;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80A3031274EA3C3009EDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55609A9C940A3B89984E67B6 /* Pods-PokeApiHaroldArias.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokeApiHaroldArias/PokeApiHaroldAriasRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokeApiHaroldArias/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.edu.pe.PokeApiHaroldArias;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D80A3033274EA3C3009EDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C052DE67835F86598D173F /* Pods-PokeApiHaroldAriasTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.edu.pe.PokeApiHaroldAriasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeApiHaroldArias.app/PokeApiHaroldArias";
+			};
+			name = Debug;
+		};
+		D80A3034274EA3C3009EDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1126FE52B7EB046BD2AFF525 /* Pods-PokeApiHaroldAriasTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.edu.pe.PokeApiHaroldAriasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeApiHaroldArias.app/PokeApiHaroldArias";
+			};
+			name = Release;
+		};
+		D80A3036274EA3C3009EDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD20420965F5986984B14ECE /* Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.edu.pe.PokeApiHaroldAriasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokeApiHaroldArias;
+			};
+			name = Debug;
+		};
+		D80A3037274EA3C3009EDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1423C7C4EB65CBD893D5B6B /* Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.edu.pe.PokeApiHaroldAriasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokeApiHaroldArias;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80A3000274EA3BE009EDB09 /* Build configuration list for PBXProject "PokeApiHaroldArias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80A302D274EA3C3009EDB09 /* Debug */,
+				D80A302E274EA3C3009EDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80A302F274EA3C3009EDB09 /* Build configuration list for PBXNativeTarget "PokeApiHaroldArias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80A3030274EA3C3009EDB09 /* Debug */,
+				D80A3031274EA3C3009EDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80A3032274EA3C3009EDB09 /* Build configuration list for PBXNativeTarget "PokeApiHaroldAriasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80A3033274EA3C3009EDB09 /* Debug */,
+				D80A3034274EA3C3009EDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80A3035274EA3C3009EDB09 /* Build configuration list for PBXNativeTarget "PokeApiHaroldAriasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80A3036274EA3C3009EDB09 /* Debug */,
+				D80A3037274EA3C3009EDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80A2FFD274EA3BE009EDB09 /* Project object */;
+}

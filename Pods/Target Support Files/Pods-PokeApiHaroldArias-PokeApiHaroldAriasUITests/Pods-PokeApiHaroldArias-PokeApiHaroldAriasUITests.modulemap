@@ -1,0 +1,6 @@
+framework module Pods_PokeApiHaroldArias_PokeApiHaroldAriasUITests {
+  umbrella header "Pods-PokeApiHaroldArias-PokeApiHaroldAriasUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
