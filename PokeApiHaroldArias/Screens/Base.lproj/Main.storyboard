@@ -411,7 +411,10 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="CellphoneTextField" destination="eBR-HR-5xt" id="yqa-YQ-hwh"/>
                         <outlet property="EmailTextField" destination="krI-OB-9cU" id="ceY-vg-8Fa"/>
+                        <outlet property="FirstNameTextField" destination="Pjh-zX-GhR" id="cKr-vd-vVB"/>
+                        <outlet property="LastNameTextField" destination="8Vs-gZ-n2K" id="XQL-FZ-666"/>
                         <outlet property="PasswordTextField" destination="sF9-vz-8bc" id="wng-uJ-5EY"/>
                         <segue destination="ExF-oh-tuI" kind="presentation" identifier="signUpSegue" id="rJa-xo-nXC"/>
                     </connections>
@@ -447,7 +450,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yLf-7C-IO9"/>
+        <segue reference="rJa-xo-nXC"/>
         <segue reference="jDb-iz-Y6y"/>
     </inferredMetricsTieBreakers>
     <resources>

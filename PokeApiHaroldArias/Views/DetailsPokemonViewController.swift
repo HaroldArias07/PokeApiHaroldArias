@@ -14,7 +14,7 @@ class DetailsPokemonViewController: UIViewController {
     @IBOutlet weak var NamePokemonLabel: UILabel!
     @IBOutlet weak var URLPokemonLabel: UILabel!
     
-    //Declaración de variables.
+    //Declaración de variables
     var results : Result? = nil
     
     //Función viewDidLoad.

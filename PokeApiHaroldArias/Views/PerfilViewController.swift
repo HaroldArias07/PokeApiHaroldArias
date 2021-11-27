@@ -7,29 +7,30 @@
 
 //Imports.
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class PerfilViewController: UIViewController {
 
     //Declarando los Outlets.
-    @IBOutlet weak var FirstNameLabel: UILabel!
-    @IBOutlet weak var LastNameLabel: UILabel!
-    @IBOutlet weak var CellphoneNumberLabel: UILabel!
+    @IBOutlet weak var UIDLabel: UILabel!
     @IBOutlet weak var EmailLabel: UILabel!
 
     //Declarando las variables.
-    var user : Users? = nil
+    let user = Auth.auth().currentUser
     
     //Función viewDidLoad.
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Rellenar automaticamente los campos con los datos almacenado en nuestro modelo.
-        FirstNameLabel.text = user?.firstname
-        LastNameLabel.text = user?.lastname
-        CellphoneNumberLabel.text = user?.cellphonenumber
-        EmailLabel.text = user?.email
+        //Almacenando datos de la autenticación en variables.
+        let uid = user?.uid
+        let email = user?.email
+        
+        UIDLabel.text = uid
+        EmailLabel.text = email
     }
-
+    
     //Función de cerrar sesión.
     @IBAction func CloseSessionTapped(_ sender: Any) {
         let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

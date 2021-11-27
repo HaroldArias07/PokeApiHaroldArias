@@ -14,6 +14,9 @@ import FirebaseDatabase
 class SingUpViewController: UIViewController {
     
     //Declarando los Outlets.
+    @IBOutlet weak var FirstNameTextField: UITextField!
+    @IBOutlet weak var LastNameTextField: UITextField!
+    @IBOutlet weak var CellphoneTextField: UITextField!
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var PasswordTextField: UITextField!
     
@@ -27,10 +30,13 @@ class SingUpViewController: UIViewController {
     }
     
     //Almacenando datos en base de datos de Firebase.
-    func storeData(user: String, uid: String) {
+    func storeData(user: String, uid: String, firstname: String, lastname: String, cellphone: String) {
         let object:[String: Any] = [
             "id": uid,
-            "email": user as NSObject
+            "fistname": firstname as NSObject,
+            "lastname": lastname as NSObject,
+            "cellphone": cellphone as NSObject,
+            "email": user as NSObject,
         ]
         databaseReference.child("Users").child(uid).setValue(object)
     }
@@ -40,6 +46,9 @@ class SingUpViewController: UIViewController {
         
         //Declarando de variables para que tomen como propiedad los datos guardados
         //en los TextFields.
+        let firstname = FirstNameTextField.text!
+        let lastname = LastNameTextField.text!
+        let cellhpone = CellphoneTextField.text!
         let email = EmailTextField.text!
         let password = PasswordTextField.text!
         
@@ -51,7 +60,7 @@ class SingUpViewController: UIViewController {
                 print("The user was created successfully")
                 let userFirebase = Auth.auth().currentUser
                 let uid = userFirebase?.uid
-                self.storeData(user: email, uid: uid!)
+                self.storeData(user: email, uid: uid!, firstname: firstname, lastname: lastname, cellphone: cellhpone)
                 self.performSegue(withIdentifier: "signUpSegue", sender: nil)
                 
             } else {
